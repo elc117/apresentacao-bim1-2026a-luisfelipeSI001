@@ -48,6 +48,7 @@ X = c
 
 ## length/2
 Retorna o tamanho de uma lista.
+
 Formato:
 length(Lista, Tamanho).
 Exemplo:
@@ -60,6 +61,7 @@ N = 4.
 ## list_to_set/2
 
 Remove elementos repetidos de uma lista.
+
 Formato:
 list_to_set(Lista, ListaSemRepeticao).
 Exemplo:
