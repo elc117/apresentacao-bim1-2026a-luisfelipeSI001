@@ -2,13 +2,24 @@
 
 ## 1 - Parte Teórica -
 
-1. **Estrutura de listas (cabeça e cauda)**  
+1. ### Estrutura de listas (cabeça e cauda)
+   
 Listas em Prolog seguem o formato `[Cabeça | Cauda]`, onde a cabeça é o primeiro elemento e a cauda é o restante da lista.
 
-2. **Listas são recursivas**  
-Percebi que listas podem ser tratadas de forma recursiva, ou seja, sempre dá pra dividir em partes menores até chegar na lista vazia.
+2. ### Listas homogêneas e heterogêneas
 
-3. **Operações com listas**  
+Listas em Prolog não precisam ter todos os elementos do mesmo tipo.
+
+✔️ Exemplo de lista homogênea:
+
+[1,2,3,4]
+
+Exemplo de lista heterogênea:
+
+[1, teste, X, movie(1, parasite, 2019)]
+
+3. ### Predicados com listas 
+
 O uso de predicados como `member`, `length` e `list_to_set`, que facilitam trabalhar com listas.
 
 ---
@@ -74,7 +85,7 @@ O programa contém informações sobre:
 
 ---
 
-## 🔹 Exercícios
+##  Exercícios
 
 ### 1. O filme schindlers_list é uma comédia?
 
