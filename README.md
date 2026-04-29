@@ -94,4 +94,4 @@ O programa contém informações sobre:
 ```prolog
 genre(9, comedy).
 
-!(assets/prolog1.gif)
+
